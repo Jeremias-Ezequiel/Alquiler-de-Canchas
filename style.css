@@ -34,7 +34,7 @@ h2{
     font-size: 40px;
 }
 
-h2{
+h3{
     font-size: 25px;
 }
 
@@ -82,6 +82,48 @@ header{
     text-align: center;
 }
 
+
+/* INICIO */
+
+.hero-img{
+    background-color: var(--negro);
+    height: 500px;
+    background-image: url(/img/hero/heroImg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-texto{
+    position: absolute;
+    background-color: rgb(0 0 0 / 70%);
+    width: 100%;
+    height: 100%;
+
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-texto a{
+    margin-top: 50px;
+    color: var(--blanco);
+    background-color: var(--verde);
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+
+.hero-texto a:hover{
+    transform: translateY(5px);
+}
+
 /* CONTACTO */
 
 
@@ -125,6 +167,7 @@ header{
 }
 
 .contacto-correo input{
+    margin-left: 20px;
     flex: 1;
 }
 
@@ -178,7 +221,7 @@ footer{
     gap: 50px;
 }
 
-.footer i{
+.footer-redes-sociales i{
     font-size: 30px;
     color: var(--blanco);
 }
@@ -200,7 +243,7 @@ footer{
     transition: all .55s ease;
 }
 
-.footer a:hover{
+.footer-contacto a:hover{
     border-bottom: 3px solid var(--blanco);
 }
 
