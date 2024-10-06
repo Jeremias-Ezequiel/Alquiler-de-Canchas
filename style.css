@@ -26,6 +26,11 @@ body{
 
 /* Globales */
 
+.contenedor{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
 h1{
    font-size: 60px; 
 }
@@ -36,6 +41,10 @@ h2{
 
 h3{
     font-size: 25px;
+}
+
+h1,h2,h3{
+    text-align: center;
 }
 
 a{
@@ -122,6 +131,57 @@ header{
 
 .hero-texto a:hover{
     transform: translateY(5px);
+}
+
+/* INICIO CANCHAS POPULARES */
+
+.canchas-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.canchas-texto{
+    margin: 50px 0;
+}
+
+.cancha-tarjeta{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    background-color: var(--verde);
+    padding: 10px 10px ;
+    border-radius: 50px;
+    margin: 30px 30px;
+}
+
+.cancha-tarjeta img{
+    width: auto;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.cancha-tarjeta p{
+    font-weight: 600;
+}
+
+.boton{
+    background-color: var(--blanco);
+    width: 200px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    transition: all .5s ease;
+}
+
+.cancha-tarjeta a:hover{
+    background-color: #e1e1e1;
+    transform: scale(1.1);
 }
 
 /* CONTACTO */
