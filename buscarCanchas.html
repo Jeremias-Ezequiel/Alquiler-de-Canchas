@@ -35,8 +35,45 @@
         </div>
     </header>
 
-    <main>
+    <main class="contenedor">
         <h2 class="main-titulo">Busqueda de Canchas</h2>
+
+        <form action="">
+            <div>
+                <select name="seleccionarCancha" id="seleccionarCancha">
+                    <option value="" selected disabled>Selecciona una cancha</option>
+                    <option value="Cancha 1">Cancha 1</option>
+                    <option value="Cancha 2">Cancha 2</option>
+                    <option value="Cancha 3">Cancha 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="fecha">Selecciona una fecha: </label>
+                <input type="date">
+            </div>
+            <div>
+                <select name="seleccionarHora" id="seleccionarHora">
+                    <option value="" selected disabled>Selecciona una hora</option>
+                    <option value="18">18:00</option>
+                    <option value="19">19:00</option>
+                    <option value="20">20:00</option>
+                    <option value="21">21:00</option>
+                </select>
+            </div>
+            <div>
+                <input type="text" placeholder="Nombre completo">
+            </div>
+            <div>
+                <input type="email" placeholder="Correo electrónico">
+            </div>
+            <div>
+                <input type="number" placeholder="Teléfono">
+            </div>
+            <div>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10"
+                placeholder="Comentarios adicionales"></textarea>
+            </div>
+        </form>
     </main>
 
     <footer>
