@@ -138,6 +138,8 @@ header{
 .canchas-tarjetas{
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
 }
 
 .canchas-texto{
